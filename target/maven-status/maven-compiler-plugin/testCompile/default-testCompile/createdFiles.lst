@@ -1,0 +1,10 @@
+EC_Positive_TestCase\TC002_CreateProductTest.class
+EC_Positive_TestCase\TC001_AccessTokenTest.class
+EC_Base\Payloads.class
+EC_Positive_TestCase\TC003_CreateOrderTest.class
+EC_Negative_TestCase\TC001_AccessTokenTest.class
+EC_Base\TestBase.class
+EC_Pojo\LoginCredentials.class
+EC_Positive_TestCase\TC005_DeleteProductTest.class
+EC_Pojo\PayloadData.class
+EC_Positive_TestCase\TC004_ViewOrderTest.class

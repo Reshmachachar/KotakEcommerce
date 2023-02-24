@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Suite">
+
+
+	<test thread-count="5" name="Test">
+		<classes>
+
+			<class name="EC_Positive_TestCase.TC001_AccessTokenTest" />
+			<class name="EC_Positive_TestCase.TC002_CreateProductTest" />
+		 	
+			<class name="EC_Positive_TestCase.TC003_CreateOrderTest" />
+			<class name="EC_Positive_TestCase.TC004_ViewOrderTest" />
+			<class name="EC_Positive_TestCase.TC005_DeleteProductTest"/>	
+<class name="EC_Negative_TestCase.TC001_AccessTokenTest" />		
+ 
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
