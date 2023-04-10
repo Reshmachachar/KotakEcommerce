@@ -2,26 +2,26 @@
 <testng-results ignored="0" total="6" passed="5" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-02-24T10:25:11 IST" name="Suite" finished-at="2023-02-24T10:25:23 IST" duration-ms="11598">
+  <suite started-at="2023-04-10T10:55:48 IST" name="Suite" finished-at="2023-04-10T10:55:57 IST" duration-ms="8900">
     <groups>
       <group name="Smoke">
-        <method signature="TC001_AccessTokenTest.getAccessToken()[pri:0, instance:EC_Negative_TestCase.TC001_AccessTokenTest@56620197]" name="getAccessToken" class="EC_Negative_TestCase.TC001_AccessTokenTest"/>
-        <method signature="TC001_AccessTokenTest.getAccessToken()[pri:0, instance:EC_Positive_TestCase.TC001_AccessTokenTest@61df66b6]" name="getAccessToken" class="EC_Positive_TestCase.TC001_AccessTokenTest"/>
-        <method signature="TC002_CreateProductTest.createProduct()[pri:0, instance:EC_Positive_TestCase.TC002_CreateProductTest@1dde4cb2]" name="createProduct" class="EC_Positive_TestCase.TC002_CreateProductTest"/>
-        <method signature="TC003_CreateOrderTest.createOrder()[pri:0, instance:EC_Positive_TestCase.TC003_CreateOrderTest@7714e963]" name="createOrder" class="EC_Positive_TestCase.TC003_CreateOrderTest"/>
-        <method signature="TC004_ViewOrderTest.viewOrderDetails()[pri:0, instance:EC_Positive_TestCase.TC004_ViewOrderTest@20ce78ec]" name="viewOrderDetails" class="EC_Positive_TestCase.TC004_ViewOrderTest"/>
-        <method signature="TC005_DeleteProductTest.deleteProduct()[pri:0, instance:EC_Positive_TestCase.TC005_DeleteProductTest@393671df]" name="deleteProduct" class="EC_Positive_TestCase.TC005_DeleteProductTest"/>
+        <method signature="TC001_AccessTokenTest.getAccessToken()[pri:0, instance:EC_Negative_TestCase.TC001_AccessTokenTest@16610890]" name="getAccessToken" class="EC_Negative_TestCase.TC001_AccessTokenTest"/>
+        <method signature="TC001_AccessTokenTest.getAccessToken()[pri:0, instance:EC_Positive_TestCase.TC001_AccessTokenTest@429bffaa]" name="getAccessToken" class="EC_Positive_TestCase.TC001_AccessTokenTest"/>
+        <method signature="TC002_CreateProductTest.createProduct()[pri:0, instance:EC_Positive_TestCase.TC002_CreateProductTest@bd4dc25]" name="createProduct" class="EC_Positive_TestCase.TC002_CreateProductTest"/>
+        <method signature="TC003_CreateOrderTest.createOrder()[pri:0, instance:EC_Positive_TestCase.TC003_CreateOrderTest@25084a1e]" name="createOrder" class="EC_Positive_TestCase.TC003_CreateOrderTest"/>
+        <method signature="TC004_ViewOrderTest.viewOrderDetails()[pri:0, instance:EC_Positive_TestCase.TC004_ViewOrderTest@156b88f5]" name="viewOrderDetails" class="EC_Positive_TestCase.TC004_ViewOrderTest"/>
+        <method signature="TC005_DeleteProductTest.deleteProduct()[pri:0, instance:EC_Positive_TestCase.TC005_DeleteProductTest@3bf9ce3e]" name="deleteProduct" class="EC_Positive_TestCase.TC005_DeleteProductTest"/>
       </group> <!-- Smoke -->
     </groups>
-    <test started-at="2023-02-24T10:25:11 IST" name="Test" finished-at="2023-02-24T10:25:23 IST" duration-ms="11598">
+    <test started-at="2023-04-10T10:55:48 IST" name="Test" finished-at="2023-04-10T10:55:57 IST" duration-ms="8900">
       <class name="EC_Positive_TestCase.TC005_DeleteProductTest">
-        <test-method signature="deleteProduct()[pri:0, instance:EC_Positive_TestCase.TC005_DeleteProductTest@393671df]" started-at="2023-02-24T10:25:23 IST" name="deleteProduct" finished-at="2023-02-24T10:25:23 IST" duration-ms="201" status="PASS">
+        <test-method signature="deleteProduct()[pri:0, instance:EC_Positive_TestCase.TC005_DeleteProductTest@3bf9ce3e]" started-at="2023-04-10T10:55:56 IST" name="deleteProduct" finished-at="2023-04-10T10:55:56 IST" duration-ms="274" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteProduct -->
       </class> <!-- EC_Positive_TestCase.TC005_DeleteProductTest -->
       <class name="EC_Negative_TestCase.TC001_AccessTokenTest">
-        <test-method signature="getAccessToken()[pri:0, instance:EC_Negative_TestCase.TC001_AccessTokenTest@56620197]" started-at="2023-02-24T10:25:23 IST" name="getAccessToken" finished-at="2023-02-24T10:25:23 IST" duration-ms="262" status="FAIL">
+        <test-method signature="getAccessToken()[pri:0, instance:EC_Negative_TestCase.TC001_AccessTokenTest@16610890]" started-at="2023-04-10T10:55:56 IST" name="getAccessToken" finished-at="2023-04-10T10:55:56 IST" duration-ms="266" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[1 expectation failed.
@@ -95,25 +95,25 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
         </test-method> <!-- getAccessToken -->
       </class> <!-- EC_Negative_TestCase.TC001_AccessTokenTest -->
       <class name="EC_Positive_TestCase.TC001_AccessTokenTest">
-        <test-method signature="getAccessToken()[pri:0, instance:EC_Positive_TestCase.TC001_AccessTokenTest@61df66b6]" started-at="2023-02-24T10:25:12 IST" name="getAccessToken" finished-at="2023-02-24T10:25:20 IST" duration-ms="8846" status="PASS">
+        <test-method signature="getAccessToken()[pri:0, instance:EC_Positive_TestCase.TC001_AccessTokenTest@429bffaa]" started-at="2023-04-10T10:55:48 IST" name="getAccessToken" finished-at="2023-04-10T10:55:55 IST" duration-ms="6728" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getAccessToken -->
       </class> <!-- EC_Positive_TestCase.TC001_AccessTokenTest -->
       <class name="EC_Positive_TestCase.TC002_CreateProductTest">
-        <test-method signature="createProduct()[pri:0, instance:EC_Positive_TestCase.TC002_CreateProductTest@1dde4cb2]" started-at="2023-02-24T10:25:20 IST" name="createProduct" finished-at="2023-02-24T10:25:22 IST" duration-ms="1328" status="PASS">
+        <test-method signature="createProduct()[pri:0, instance:EC_Positive_TestCase.TC002_CreateProductTest@bd4dc25]" started-at="2023-04-10T10:55:55 IST" name="createProduct" finished-at="2023-04-10T10:55:55 IST" duration-ms="836" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createProduct -->
       </class> <!-- EC_Positive_TestCase.TC002_CreateProductTest -->
       <class name="EC_Positive_TestCase.TC003_CreateOrderTest">
-        <test-method signature="createOrder()[pri:0, instance:EC_Positive_TestCase.TC003_CreateOrderTest@7714e963]" started-at="2023-02-24T10:25:22 IST" name="createOrder" finished-at="2023-02-24T10:25:22 IST" duration-ms="461" status="PASS">
+        <test-method signature="createOrder()[pri:0, instance:EC_Positive_TestCase.TC003_CreateOrderTest@25084a1e]" started-at="2023-04-10T10:55:55 IST" name="createOrder" finished-at="2023-04-10T10:55:56 IST" duration-ms="384" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createOrder -->
       </class> <!-- EC_Positive_TestCase.TC003_CreateOrderTest -->
       <class name="EC_Positive_TestCase.TC004_ViewOrderTest">
-        <test-method signature="viewOrderDetails()[pri:0, instance:EC_Positive_TestCase.TC004_ViewOrderTest@20ce78ec]" started-at="2023-02-24T10:25:22 IST" name="viewOrderDetails" finished-at="2023-02-24T10:25:23 IST" duration-ms="289" status="PASS">
+        <test-method signature="viewOrderDetails()[pri:0, instance:EC_Positive_TestCase.TC004_ViewOrderTest@156b88f5]" started-at="2023-04-10T10:55:56 IST" name="viewOrderDetails" finished-at="2023-04-10T10:55:56 IST" duration-ms="155" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- viewOrderDetails -->

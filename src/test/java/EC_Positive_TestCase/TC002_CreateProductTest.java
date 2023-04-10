@@ -33,7 +33,7 @@ public class TC002_CreateProductTest{
 				.formParam("productPrice", "11500")
 				.formParam("productDescription", "Raymond Originals")
 				.formParam("productFor", "women")
-				.multiPart("productImage", new File("D:\\KOTAKDEMO\\ECommerceJ\\image\\myphoto.jpg"))
+				.multiPart("productImage", new File("G:\\KotakDemo\\My_Photo.jpg"))
 				.when()
 				.post("api/ecom/product/add-product")
 				.then()
