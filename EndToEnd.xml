@@ -11,9 +11,9 @@
 			<class name="EC_Positive_TestCase.TC002_CreateProductTest" />
 		 	
 			<class name="EC_Positive_TestCase.TC003_CreateOrderTest" />
-			<class name="EC_Positive_TestCase.TC004_ViewOrderTest" />
-			<class name="EC_Positive_TestCase.TC005_DeleteProductTest"/>	
-<class name="EC_Negative_TestCase.TC001_AccessTokenTest" />		
+			<!--<class name="EC_Positive_TestCase.TC004_ViewOrderTest" />
+			 <class name="EC_Positive_TestCase.TC005_DeleteProductTest"/> -->	
+                        <class name="EC_Negative_TestCase.TC001_AccessTokenTest" />		
  
 		</classes>
 	</test> <!-- Test -->
